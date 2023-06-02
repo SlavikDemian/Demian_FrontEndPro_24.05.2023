@@ -15,14 +15,10 @@ let sportSecondAthlete = 'Шевченко Андрій'
 let sportThirdAthlete = 'Олександр Усик'
 // let ageOfUserStri = nowYear - userAge
 
-
-
 if (userCiti === citiFirst || userCiti === citiSecond || userCiti === citiThird){
     userCitiCapital = `Ти живеш у столиці ${userCiti}`
-    console.log(`Ти живеш у столиці ${userCiti}`)
     if (userSport === sportFirst){
         sportStruggle = `Круто! Хочеш стати ${sportFirstAthlete}`
-        console.log(`Круто! Хочеш стати ${sportFirstAthlete}`)
         if (userAge) {
             ageOfUserStri = nowYear - userAge
             alert(`Тобі ${ageOfUserStri} років ${userCitiCapital}  ${sportStruggle}`)
@@ -32,7 +28,6 @@ if (userCiti === citiFirst || userCiti === citiSecond || userCiti === citiThird)
         }
     } else if(userSport === sportSecond) {
         sportFootball = `Круто! Хочеш стати ${sportSecondAthlete}`
-        console.log(`Круто! Хочеш стати ${sportSecondAthlete}`)
         if (userAge) {
             ageOfUserStri = nowYear - userAge
             alert(`Тобі ${ageOfUserStri} років ${userCitiCapital}  ${sportFootball}`)
@@ -42,7 +37,6 @@ if (userCiti === citiFirst || userCiti === citiSecond || userCiti === citiThird)
         }
     } else if(userSport === sportThird) {
         sportBox = `Круто! Хочеш стати ${sportThirdAthlete}`
-        console.log(`Круто! Хочеш стати ${sportThirdAthlete}`)
         if (userAge) {
             ageOfUserStri = nowYear - userAge
             alert(`Тобі ${ageOfUserStri} років ${userCitiCapital}  ${sportBox}`)
@@ -52,13 +46,18 @@ if (userCiti === citiFirst || userCiti === citiSecond || userCiti === citiThird)
         }
     } else {
         userSportCancel = 'Шкода, що Ви не захотіли ввести свій(ю) спорт'
+        if (userAge) {
+            ageOfUserStri = nowYear - userAge
+            alert(`Тобі ${ageOfUserStri} років ${userCitiCapital}  ${userSportCancel}`)
+        } else {
+            userAgeCancel = 'Шкода, що Ви не захотіли ввести свій(ю) вік'
+            alert(`${userAgeCancel}  ${userCitiCapital}  ${userSportCancel}`)
+        }
     }
 } else if (userCiti) {
     userCitiLive = `Ти живеш у місті ${userCiti}`
-    console.log(`Ти живеш у місті ${userCiti}`)
     if (userSport === sportFirst){
         sportStruggle = `Круто! Хочеш стати ${sportFirstAthlete}`
-        console.log(`Круто! Хочеш стати ${sportFirstAthlete}`)
         if (userAge) {
             ageOfUserStri = nowYear - userAge
             alert(`Тобі ${ageOfUserStri} років ${userCitiLive}  ${sportStruggle}`)
@@ -68,7 +67,6 @@ if (userCiti === citiFirst || userCiti === citiSecond || userCiti === citiThird)
         }
     } else if(userSport === sportSecond) {
         sportFootball = `Круто! Хочеш стати ${sportSecondAthlete}`
-        console.log(`Круто! Хочеш стати ${sportSecondAthlete}`)
         if (userAge) {
             ageOfUserStri = nowYear - userAge
             alert(`Тобі ${ageOfUserStri} років ${userCitiLive}  ${sportFootball}`)
@@ -78,7 +76,6 @@ if (userCiti === citiFirst || userCiti === citiSecond || userCiti === citiThird)
         }
     } else if(userSport === sportThird) {
         sportBox = `Круто! Хочеш стати ${sportThirdAthlete}`
-        console.log(`Круто! Хочеш стати ${sportThirdAthlete}`)
         if (userAge) {
             ageOfUserStri = nowYear - userAge
             alert(`Тобі ${ageOfUserStri} років ${userCitiLive}  ${sportBox}`)
@@ -88,13 +85,18 @@ if (userCiti === citiFirst || userCiti === citiSecond || userCiti === citiThird)
         }
     } else {
         userSportCancel = 'Шкода, що Ви не захотіли ввести свій(ю) спорт'
+        if (userAge) {
+            ageOfUserStri = nowYear - userAge
+            alert(`Тобі ${ageOfUserStri} років ${userCitiLive}  ${userSportCancel}`)
+        } else {
+            userAgeCancel = 'Шкода, що Ви не захотіли ввести свій(ю) вік'
+            alert(`${userAgeCancel}  ${userCitiLive}  ${userSportCancel}`)
+        }
     }
 } else if (userCiti === null) {
     userCitiCancel = 'Шкода, що Ви не захотіли ввести свій(ю) місто'
-    console.log(`Шкода, що Ви не захотіли ввести свій(ю) місто`)
     if (userSport === sportFirst){
         sportStruggle = `Круто! Хочеш стати ${sportFirstAthlete}`
-        console.log(`Круто! Хочеш стати ${sportFirstAthlete}`)
         if (userAge) {
             ageOfUserStri = nowYear - userAge
             alert(`Тобі ${ageOfUserStri} років ${userCitiCancel}  ${sportStruggle}`)
@@ -104,7 +106,6 @@ if (userCiti === citiFirst || userCiti === citiSecond || userCiti === citiThird)
         }
     } else if(userSport === sportSecond) {
         sportFootball = `Круто! Хочеш стати ${sportSecondAthlete}`
-        console.log(`Круто! Хочеш стати ${sportSecondAthlete}`)
         if (userAge) {
             ageOfUserStri = nowYear - userAge
             alert(`Тобі ${ageOfUserStri} років ${userCitiCancel}  ${sportFootball}`)
@@ -114,7 +115,6 @@ if (userCiti === citiFirst || userCiti === citiSecond || userCiti === citiThird)
         }
     } else if(userSport === sportThird) {
         sportBox = `Круто! Хочеш стати ${sportThirdAthlete}`
-        console.log(`Круто! Хочеш стати ${sportThirdAthlete}`)
         if (userAge) {
             ageOfUserStri = nowYear - userAge
             alert(`Тобі ${ageOfUserStri} років ${userCitiCancel}  ${sportBox}`)
@@ -124,12 +124,14 @@ if (userCiti === citiFirst || userCiti === citiSecond || userCiti === citiThird)
         }
     } else {
         userSportCancel = 'Шкода, що Ви не захотіли ввести свій(ю) спорт'
+        if (userAge) {
+            ageOfUserStri = nowYear - userAge
+            alert(`Тобі ${ageOfUserStri} років ${userCitiCancel}  ${userSportCancel}`)
+        } else {
+            userAgeCancel = 'Шкода, що Ви не захотіли ввести свій(ю) вік'
+            alert(`${userAgeCancel}  ${userCitiCancel}  ${userSportCancel}`)
+        }
     }
 } else {
     console.log('Что-то не так')
 }
-
-
-// console.log(userCitiCapital)
-// console.log(userCitiLive)
-// console.log(userCitiCancel)
