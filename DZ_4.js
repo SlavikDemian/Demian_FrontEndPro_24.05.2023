@@ -1,3 +1,4 @@
+/*
 const userAge = prompt('Введите свой год рождения')
 const userCity = prompt ('Введите город с котором Вы живете')
 const userSport = prompt('Введите любимый вид спорта')
@@ -45,3 +46,4 @@ if (userSport === sportFirst){
 }
 
 alert(`${ageOfUserStri} ${userCityLive} ${userDoSport}`)
+*/
