@@ -1,4 +1,4 @@
-let size = prompt('Введи колличество массивов');
+let size = prompt('Введи количество массивов');
 let inputArray = [];
 size = Number(size);
 for (let i = 0; i < size; i++) {
