@@ -1,3 +1,4 @@
+/*
 let size = prompt('Введи количество массивов');
 let inputArray = [];
 size = Number(size);
@@ -15,5 +16,4 @@ let arrayWithElements = sortInputArrayNumber.slice(); // Создает копи
 
 arrayWithElements.splice(1, 3); // Удаляет элементы массива с 2 по 4 включительно
 document.getElementById("arrPrint3").innerHTML = `Удаляет элементы массива с 2 по 4 включительно: ${arrayWithElements}`;
-
-/////
+*/
