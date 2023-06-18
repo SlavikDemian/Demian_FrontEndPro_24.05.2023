@@ -1,4 +1,4 @@
-
+/*
 const characters = 'abcdefghijklmnopqrstuvwxyz0123456789';
 function generateKey(length, characters) {
 
@@ -16,3 +16,5 @@ const key3 = generateKey(22, characters);
 console.log(key);
 console.log(key2);
 console.log(key3);
+
+ */
