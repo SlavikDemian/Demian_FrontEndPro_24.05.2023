@@ -1,5 +1,5 @@
 
-
+/*
 function funAdditions () {
     let val = 0;
     return function (x) {
@@ -17,3 +17,5 @@ let sumSecond = funAdditions();
 console.log(sumSecond(20));
 console.log(sumSecond(5));
 console.log(sumSecond(3));
+
+ */
