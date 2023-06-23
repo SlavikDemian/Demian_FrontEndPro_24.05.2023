@@ -1,4 +1,4 @@
-
+/*
 let ladder = {
     step: 0,
     up: function () {
@@ -24,3 +24,5 @@ let ladder = {
 
 
 ladder.up().up().down().showStep().down().down().showStep(); // 1 // -1
+
+ */
