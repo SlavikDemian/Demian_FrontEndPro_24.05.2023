@@ -1,4 +1,4 @@
-
+/*
 function Person (name, age){
     this.name = name;
     this.age = age;
@@ -59,3 +59,5 @@ autoFord.owner(humanYan);
 autoHonda.infoAuto();
 autoMazda.infoAuto();
 autoFord.infoAuto();
+
+ */
