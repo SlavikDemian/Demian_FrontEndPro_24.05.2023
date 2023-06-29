@@ -1,4 +1,4 @@
-
+/*
 class Human {
     constructor(name, gender) {
         this.name = name;
@@ -66,7 +66,7 @@ console.log(hou1,hou2)
 const hou3 = new House(15)
 hou3.addApartmentToHouse(apartment1)
 console.log(hou3)
-
+*/
 
 
 
