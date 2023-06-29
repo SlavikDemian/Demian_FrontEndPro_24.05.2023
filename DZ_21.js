@@ -24,7 +24,7 @@ class House {
     }
 
     addApartmentToHouse(apart) {
-        if (this.arrayApartment >= this.maxAparment) {
+        if (this.arrayApartment.length >= this.maxAparment) {
             console.log(`Attention: The maximum number of apartments has been exceeded`)
         } else {
             this.arrayApartment.push(apart)
@@ -50,12 +50,17 @@ apartment3.addHumanToApartment(hum1.name)
 console.log(apartment3)
 
 
-const hou1 = new House(5)
-const hou2 = new House(300)
-hou1.addApartmentToHouse(20)
-hou1.addApartmentToHouse()
-hou2.addApartmentToHouse(150)
+const hou1 = new House(10)
+const hou2 = new House(4)
+hou1.addApartmentToHouse(apartment1)
+
+hou2.addApartmentToHouse(apartment2)
+hou2.addApartmentToHouse(apartment2)
+hou2.addApartmentToHouse(apartment2)
+hou2.addApartmentToHouse(apartment2)
+hou2.addApartmentToHouse(apartment2)
 console.log(hou1,hou2)
+
 
 
 const hou3 = new House(15)
