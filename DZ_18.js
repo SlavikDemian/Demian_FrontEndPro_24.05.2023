@@ -1,3 +1,4 @@
+/*
 class Student {
     constructor(name, surname, yearOfBirth) {
         this.name = name;
@@ -87,6 +88,6 @@ console.log(`Средний балл - ${Math.round(ratingStud1)} студент
 stud1.summary()
 stud2.summary()
 stud3.summary()
-
+*/
 
 
