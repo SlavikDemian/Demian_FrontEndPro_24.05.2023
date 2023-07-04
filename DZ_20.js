@@ -16,25 +16,26 @@ class SuperMath {
     }
     input(obj) {
         const {x, znak, y} = obj;
-        let result;
+
         switch (znak) {
             case "+":
-                result = x + y;
-                break;
+                return  x + y;
+
             case "-":
-                result = x - y;
-                break;
+                return  x - y;
+
             case "*":
-                result = x * y;
-                break;
+                return  x * y;
+
             case "/":
-                result = x / y;
-                break;
+                return  x / y;
+
             case "%":
-                result = x % y;
-                break;
+                return  x % y;
+
+            default:
+                return `Введен неверный знак`
         }
-        return result;
     }
 }
 const obj = {x: 12, znak: '/', y: 3 }
