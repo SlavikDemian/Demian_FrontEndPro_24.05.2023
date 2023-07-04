@@ -1,4 +1,4 @@
-
+/*
 
 class Hamburger{
     constructor(size, stuffing) {
@@ -80,3 +80,5 @@ hamb2.addTopping(Hamburger.TOPPING_MAYO)
 hamb2.addTopping(Hamburger.TOPPING_SEASONING)
 console.log('Calories', + hamb2.calcCalories())
 console.log('Price', + hamb2.calcPrice())
+
+ */
