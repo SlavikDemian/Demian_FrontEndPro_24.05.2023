@@ -1,3 +1,4 @@
+/*
 class SuperMath {
     check(obj) {
         let isConfirmed = confirm(`Хотете произвести действие? Знак вычисления: - '${obj.znak}', первое значение: - ${obj.x}, второе значение: - ${obj.y}`);
@@ -43,3 +44,4 @@ const obj = {x: 12, znak: '/', y: 3 }
 const p = new SuperMath();
 p.check(obj)
 
+*/
