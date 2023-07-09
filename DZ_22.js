@@ -14,8 +14,7 @@ for (let i = 0; i < 10; i++){
 
     for (let x = 0; x < 10; x++){
         let td = document.createElement('td');
-        let sum = 1;
-        sum += x;
+
         let number = document.createTextNode((x + 10 * i) + 1)
         td.appendChild(number)
 
