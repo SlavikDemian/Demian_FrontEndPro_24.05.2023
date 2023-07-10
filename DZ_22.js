@@ -1,5 +1,5 @@
 
-
+/*
 const div = document.createElement('div');
 document.body.appendChild(div)
 div.id = 'table'
@@ -26,4 +26,4 @@ for (let i = 0; i < 10; i++){
     table.appendChild(tr)
 
 }
-
+*/
