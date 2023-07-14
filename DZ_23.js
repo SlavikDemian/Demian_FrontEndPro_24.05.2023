@@ -1,4 +1,4 @@
-
+/*
 const div = document.createElement('div')
 div.setAttribute('id','image')
 document.body.appendChild(div)
@@ -11,6 +11,6 @@ function getRandom(){
 document.getElementById('image').innerHTML = getRandom()
 
 console.log(getRandom())
-
+*/
 
 
