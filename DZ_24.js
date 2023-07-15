@@ -1,4 +1,4 @@
-
+/*
 const inputElem = document.getElementsByTagName('input')
 
 let divTag;
@@ -12,4 +12,4 @@ let divTag;
     inputElem[0].addEventListener('blur', () => {
     divTag.remove();
 })
-
+*/
