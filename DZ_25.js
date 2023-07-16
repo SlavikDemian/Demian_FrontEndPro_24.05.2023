@@ -1,57 +1,40 @@
 
-let buttonFirst = document.createElement('button');
-document.body.appendChild(buttonFirst);
-let linkButtFirst = document.createElement('a')
-buttonFirst.appendChild(linkButtFirst)
-const textButt1 = document.createTextNode('Button1')
-linkButtFirst.appendChild(textButt1)
+const buttonFirst = document.getElementById('buttonID1')
+const linkButtFirst = document.getElementById('linkButtID1')
+let valuePromForButtFirst = prompt('Введите сайт для Button 1')
 
-linkButtFirst.setAttribute('style', 'text-decoration: none; color: black')
-linkButtFirst.setAttribute('target', '_blank')
-let valuePromForButtFirst
+const buttonSecond = document.getElementById('buttonID2')
+const linkButtSecond = document.getElementById('linkButtID2')
+let valuePromForButtSecond = prompt('Введите сайт для Button 2')
 
+function checkHttp (link){
+    if(link === ''|| link === null){
+        alert('Нет ссылки')
+    } else if (!link.startsWith('http') && !link.startsWith('https')){
+       return `https://${link}`;
+    } else {
+        return link
+    }
+}
 
-let buttonSecond = document.createElement('button');
-document.body.appendChild(buttonSecond);
-let linkButtSecond = document.createElement('a')
-buttonSecond.appendChild(linkButtSecond)
-const textButt2 = document.createTextNode('Button2')
-linkButtSecond.appendChild(textButt2)
-
-linkButtSecond.setAttribute('style', 'text-decoration: none; color: black')
-linkButtSecond.setAttribute('target', '_blank')
-let valuePromForButtSecond
-
+linkButtFirst.setAttribute('href', checkHttp(valuePromForButtFirst))
+linkButtSecond.setAttribute('href', checkHttp(valuePromForButtSecond))
 
 
 buttonFirst.addEventListener('click', function (){
-
-    valuePromForButtFirst  = prompt('Введите сайт для кнопки номер 1')
-
-    if(valuePromForButtFirst === ''|| valuePromForButtFirst === null){
-        alert('Нет ссылки')
-    } else if (!valuePromForButtFirst.startsWith('http') && !valuePromForButtFirst.startsWith('https')){
-        valuePromForButtFirst = `https://${valuePromForButtFirst}`;
-        linkButtFirst.setAttribute('href', valuePromForButtFirst)
+    if(valuePromForButtFirst){
+        return linkButtFirst
     } else {
-        linkButtFirst.setAttribute('href', valuePromForButtFirst)
+        alert('Введите ссылку для перехода')
     }
-})
+});
 
 buttonSecond.addEventListener('click', function (){
-
-    valuePromForButtSecond  = prompt('Введите сайт для кнопки номер 2')
-
-    if(valuePromForButtSecond === ''|| valuePromForButtSecond === null){
-        alert('Нет ссылки')
-    } else if (!valuePromForButtSecond.startsWith('http') && !valuePromForButtSecond.startsWith('https')){
-        valuePromForButtSecond = `https://${valuePromForButtSecond}`;
-        linkButtSecond.setAttribute('href', valuePromForButtSecond)
+    if(valuePromForButtSecond){
+        return linkButtSecond
     } else {
-        linkButtSecond.setAttribute('href', valuePromForButtSecond)
+        alert('Введите ссылку для перехода')
     }
-})
-
-
+});
 
 
