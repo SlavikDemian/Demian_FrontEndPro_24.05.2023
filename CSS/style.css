@@ -1,0 +1,51 @@
+
+#parent {
+    display: flex;
+    list-style: none;
+}
+
+#smile_1{
+    background-image: url("../images/sm_1.png");
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#smile_2{
+    background-image: url("../images/sm_2.png");
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center
+}
+
+#smile_3{
+    background-image: url("../images/sm_3.png");
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center
+}
+
+#smile_4{
+    background-image: url("../images/sm_4.png");
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center
+}
+
+#smile_5{
+    background-image: url("../images/sm_5.png");
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center
+}

@@ -1,4 +1,4 @@
-
+/*
 const buttonFirst = document.getElementById('buttonID1')
 const linkButtFirst = document.getElementById('linkButtID1')
 let valuePromForButtFirst = prompt('Введите сайт для Button 1')
@@ -37,4 +37,4 @@ buttonSecond.addEventListener('click', function (){
     }
 });
 
-
+*/
