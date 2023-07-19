@@ -15,19 +15,19 @@ smileID5.innerHTML = number;
 parentID.addEventListener('click', (e) =>{
     if (e.target && e.target.nodeName === 'LI') {
         if (e.target === smileID1) {
-            let countPlus = smileID1.innerHTML;
+
             smileID1.innerHTML++;
         } else if(e.target === smileID2) {
-            let countPlus = smileID2.innerHTML;
+
             smileID2.innerHTML++;
         } else if(e.target === smileID3) {
-            let countPlus = smileID3.innerHTML;
+
             smileID3.innerHTML++;
         } else if(e.target === smileID4) {
-            let countPlus = smileID4.innerHTML;
+
             smileID4.innerHTML++;
         }  else if(e.target === smileID5) {
-            let countPlus = smileID5.innerHTML;
+
             smileID5.innerHTML++;
         }
 
