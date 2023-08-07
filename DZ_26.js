@@ -1,4 +1,5 @@
 
+/*
 const parentID = document.getElementById('parent')
 const smileID1 = document.getElementById('smile_1')
 const smileID2 = document.getElementById('smile_2')
@@ -33,3 +34,4 @@ parentID.addEventListener('click', (e) =>{
 
     }
 })
+*/
