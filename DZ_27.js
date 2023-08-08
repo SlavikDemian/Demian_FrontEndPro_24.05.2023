@@ -1,3 +1,4 @@
+/*
 const main_container = document.createElement('div')
 document.body.appendChild(main_container)
 main_container.style.display = 'inline-block'
@@ -116,3 +117,4 @@ function showProductDescription(product) {
     descriptionContainer.appendChild(productDescription);
     descriptionContainer.appendChild(buyButton);
 }
+*/
