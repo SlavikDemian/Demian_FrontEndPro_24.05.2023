@@ -1,4 +1,4 @@
-const images = ["/images/sm_1.png", "/images/sm_2.png", "/images/sm_3.png", "/images/sm_4.png", "/images/sm_5.png"];
+const images = ["./images/sm_1.png", "./images/sm_2.png", "./images/sm_3.png", "./images/sm_4.png", "./images/sm_5.png"];
 let currentImageIndex = 0;
 
 const prevButton = document.getElementById("prevBtn");
@@ -8,13 +8,11 @@ const imageElement = document.getElementById("image");
 prevButton.addEventListener("click", () => {
     currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
     updateImage();
-    console.log(currentImageIndex)
 });
 
 nextButton.addEventListener("click", () => {
     currentImageIndex = (currentImageIndex + 1) % images.length;
     updateImage();
-    console.log(currentImageIndex)
 });
 
 
