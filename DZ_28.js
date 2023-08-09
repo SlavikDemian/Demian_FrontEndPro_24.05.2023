@@ -1,3 +1,4 @@
+/*
 const images = ["./images/sm_1.png", "./images/sm_2.png", "./images/sm_3.png", "./images/sm_4.png", "./images/sm_5.png"];
 let currentImageIndex = 0;
 
@@ -23,3 +24,4 @@ function updateImage() {
 }
 
 updateImage();
+*/
