@@ -1,3 +1,4 @@
+/*
 const array = [1, 2, [1.1, 1.2, 1.3], 3];
 const body = document.body;
 
@@ -22,3 +23,5 @@ function generateList(array) {
 
 const listElement = generateList(array);
 body.appendChild(listElement);
+
+ */
