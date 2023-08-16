@@ -1,5 +1,6 @@
 
 
+/*
 
 // const main_container = document.createElement('div')
 // document.body.appendChild(main_container)
@@ -9,15 +10,15 @@ const productContainer = document.createElement('div')
 document.body.appendChild(productContainer)
 productContainer.style.display = 'inline-block'
 
-/*----------------------------------------------------------*/
+////////////////////////////////////
 const orderForm = document.getElementById('orderForm');
 const submitButton = orderForm.querySelector('button[type="submit"]');
 const orderInfoContainer = document.getElementById('orderInfo');
 
-/*----------------------------------------------------------*/
-
 const mainContainer = document.getElementById('mainContainer');
 const formContainer = document.getElementById('formContainer');
+
+/////////////////////////////////////////
 
 
 
@@ -137,7 +138,7 @@ function showProductDescription(product) {
     descriptionContainer.appendChild(buyButton);
 }
 
-/*----------------------------------------------------------*/
+////////////////////////////////////////////////////////////
 
 
 submitButton.addEventListener('click', (event) => {
@@ -167,7 +168,7 @@ submitButton.addEventListener('click', (event) => {
 });
 
 
-
+*/
 
 
 

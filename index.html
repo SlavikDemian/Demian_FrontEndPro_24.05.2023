@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>JS</title>
     <link rel="stylesheet" href="CSS/style.css">
+
 </head>
 <body>
 
@@ -41,39 +42,103 @@
 <!--</div>-->
 
 
-<div id="mainContainer"></div>
-<div id="formContainer">
-    <form id="orderForm" style="display: none;">
-        <label for="full-name">Your full name:</label><br>
-        <input type="text" id="full-name" name="full-name" required><br><br>
 
-        <label for="city">City:</label><br>
-        <select id="city" name="city" required>
+
+
+
+<!--<div id="mainContainer"></div>-->
+<!--<div id="formContainer">-->
+<!--    <form id="orderForm" style="display: none;">-->
+<!--        <label for="full-name">Your full name:</label><br>-->
+<!--        <input type="text" id="full-name" name="full-name" required><br><br>-->
+
+<!--        <label for="city">City:</label><br>-->
+<!--        <select id="city" name="city" required>-->
+<!--            <option value="Odesa">Odesa</option>-->
+<!--            <option value="Kyiv">Kyiv</option>-->
+<!--            <option value="Dnipro">Dnipro</option>-->
+<!--            <option value="Lviv">Lviv</option>-->
+<!--        </select><br><br>-->
+
+<!--        <label for="nova-poshta">Nuber "Nova Post":</label><br>-->
+<!--        <input type="number" id="nova-poshta" name="nova-poshta" required min="1" max="10000"><br><br>-->
+
+<!--        <label>Payment method:</label><br>-->
+<!--        <input type="radio" id="payment-cash" name="payment-method" value="Cash on delivery" required>-->
+<!--        <label for="payment-cash">Cash on delivery</label><br>-->
+<!--        <input type="radio" id="payment-card" name="payment-method" value="Pay by credit card" required>-->
+<!--        <label for="payment-card">Pay by credit card</label><br><br>-->
+
+<!--        <label for="quantity">Quantity of purchased products:</label>-->
+<!--        <input type="number" id="quantity" name="quantity" required min="1" max="100"><br><br>-->
+
+<!--        <label for="comment">Comment (not required to fill out):</label><br>-->
+<!--        <textarea id="comment" name="comment" rows="4" cols="50" style="resize: none"></textarea><br>-->
+
+<!--        <button type="submit">Submit form</button>-->
+<!--    </form>-->
+<!--</div>-->
+<!--<div id="orderInfo"></div>-->
+
+
+
+
+
+
+<div id="container">
+    <form id="myForm">
+        <label for="firstName">First Name:</label><br>
+        <input type="text" id="firstName" name="firstName" required><br><br>
+
+        <label for="lastName">Last Name:</label><br>
+        <input type="text" id="lastName" name="lastName" required><br><br>
+
+        <label for="birthdate">Date of Birth:</label><br>
+        <input type="text" id="birthdate" name="birthdate" required><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <label for="city">City:</label>
+        <select id="city" name="city">
             <option value="Odesa">Odesa</option>
             <option value="Kyiv">Kyiv</option>
             <option value="Dnipro">Dnipro</option>
             <option value="Lviv">Lviv</option>
         </select><br><br>
 
-        <label for="nova-poshta">Nuber "Nova Post":</label><br>
-        <input type="number" id="nova-poshta" name="nova-poshta" required min="1" max="10000"><br><br>
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="4" cols="50" style="resize: none"></textarea><br><br>
 
-        <label>Payment method:</label><br>
-        <input type="radio" id="payment-cash" name="payment-method" value="Cash on delivery" required>
-        <label for="payment-cash">Cash on delivery</label><br>
-        <input type="radio" id="payment-card" name="payment-method" value="Pay by credit card" required>
-        <label for="payment-card">Pay by credit card</label><br><br>
+        <label>Languages:</label>
+        <input type="checkbox" id="ukrainian" name="languages" value="Ukrainian">
+        <label for="ukrainian">Ukrainian</label>
+        <input type="checkbox" id="english" name="languages" value="English">
+        <label for="english">English</label>
+        <input type="checkbox" id="french" name="languages" value="French">
+        <label for="french">French</label><br><br>
 
-        <label for="quantity">Quantity of purchased products:</label>
-        <input type="number" id="quantity" name="quantity" required min="1" max="100"><br><br>
-
-        <label for="comment">Comment (not required to fill out):</label><br>
-        <textarea id="comment" name="comment" rows="4" cols="50" style="resize: none"></textarea><br>
-
-        <button type="submit">Submit form</button>
+        <button type="button" id="submitButton">Save</button>
     </form>
 </div>
-<div id="orderInfo"></div>
+<div id="tableContainer"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -105,7 +170,7 @@
 <script src="DZ_28.js"></script>
 <script src="DZ_29.js"></script>
 <script src="DZ_30.js"></script>
-
+<script src="DZ_31.js"></script>
 
 
 
