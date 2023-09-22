@@ -1,6 +1,6 @@
 
 
-
+/*
 document.getElementById("submitButton").addEventListener("click", function () {
     const formData = new FormData(document.getElementById("myForm"));
     const entries = formData.entries();
@@ -34,3 +34,4 @@ document.getElementById("submitButton").addEventListener("click", function () {
 
     document.getElementById("myForm").style.display = "none";
 });
+*/
