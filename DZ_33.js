@@ -1,4 +1,6 @@
 
+/*
+
 
 function fetchPostById(postId) {
     return new Promise((resolve, reject) => {
@@ -63,3 +65,7 @@ document.getElementById("searchButton").addEventListener("click", () => {
             console.error(error);
         });
 });
+
+
+
+ */
