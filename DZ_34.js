@@ -1,7 +1,7 @@
 
 
 
-const apiUrl = "http://api.openweathermap.org/data/2.5/weather?q=LVIV&units=metric&APPID=5d066958a60d315387d9492393935c19";
+const apiUrl = "https://api.openweathermap.org/data/2.5/weather?q=LVIV&units=metric&APPID=5d066958a60d315387d9492393935c19";
 
 const temperatureElement = document.getElementById("temperature");
 const pressureElement = document.getElementById("pressure");
@@ -21,7 +21,7 @@ xhr.onreadystatechange = function () {
         humidityElement.textContent = response.main.humidity;
         windSpeedElement.textContent = response.wind.speed;
         windDegElement.textContent = response.wind.deg;
-        weatherIconElement.src = "http://openweathermap.org/img/w/" + response.weather[0].icon + ".png";
+        weatherIconElement.src = "https://openweathermap.org/img/w/" + response.weather[0].icon + ".png";
     }
 };
 
