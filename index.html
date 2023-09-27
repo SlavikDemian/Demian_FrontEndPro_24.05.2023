@@ -46,49 +46,49 @@
 
 
 
-<div id="mainContainer">
-    <ul id="categoryMain"></ul>
-</div>
+<!--<div id="mainContainer">-->
+<!--    <ul id="categoryMain"></ul>-->
+<!--</div>-->
 
 
-<div id="formContainer">
-    <form id="orderForm" style="display: none;">
-        <label for="full-name">Your full name:</label><br>
-        <input type="text" id="full-name" name="full-name" required><br><br>
+<!--<div id="formContainer">-->
+<!--    <form id="orderForm" style="display: none;">-->
+<!--        <label for="full-name">Your full name:</label><br>-->
+<!--        <input type="text" id="full-name" name="full-name" required><br><br>-->
 
-        <label for="city">City:</label><br>
-        <select id="city" name="city" required>
-            <option value="Odesa">Odesa</option>
-            <option value="Kyiv">Kyiv</option>
-            <option value="Dnipro">Dnipro</option>
-            <option value="Lviv">Lviv</option>
-        </select><br><br>
+<!--        <label for="city">City:</label><br>-->
+<!--        <select id="city" name="city" required>-->
+<!--            <option value="Odesa">Odesa</option>-->
+<!--            <option value="Kyiv">Kyiv</option>-->
+<!--            <option value="Dnipro">Dnipro</option>-->
+<!--            <option value="Lviv">Lviv</option>-->
+<!--        </select><br><br>-->
 
-        <label for="nova-poshta">Nuber "Nova Post":</label><br>
-        <input type="number" id="nova-poshta" name="nova-poshta" required min="1" max="10000"><br><br>
+<!--        <label for="nova-poshta">Nuber "Nova Post":</label><br>-->
+<!--        <input type="number" id="nova-poshta" name="nova-poshta" required min="1" max="10000"><br><br>-->
 
-        <label>Payment method:</label><br>
-        <input type="radio" id="payment-cash" name="payment-method" value="Cash on delivery" required>
-        <label for="payment-cash">Cash on delivery</label><br>
-        <input type="radio" id="payment-card" name="payment-method" value="Pay by credit card" required>
-        <label for="payment-card">Pay by credit card</label><br><br>
+<!--        <label>Payment method:</label><br>-->
+<!--        <input type="radio" id="payment-cash" name="payment-method" value="Cash on delivery" required>-->
+<!--        <label for="payment-cash">Cash on delivery</label><br>-->
+<!--        <input type="radio" id="payment-card" name="payment-method" value="Pay by credit card" required>-->
+<!--        <label for="payment-card">Pay by credit card</label><br><br>-->
 
-        <label for="quantity">Quantity of purchased products:</label>
-        <input type="number" id="quantity" name="quantity" required min="1" max="100"><br><br>
+<!--        <label for="quantity">Quantity of purchased products:</label>-->
+<!--        <input type="number" id="quantity" name="quantity" required min="1" max="100"><br><br>-->
 
-        <label for="comment">Comment (not required to fill out):</label><br>
-        <textarea id="comment" name="comment" rows="4" cols="50" style="resize: none"></textarea><br>
+<!--        <label for="comment">Comment (not required to fill out):</label><br>-->
+<!--        <textarea id="comment" name="comment" rows="4" cols="50" style="resize: none"></textarea><br>-->
 
-        <button type="submit">Submit form</button>
-    </form>
-</div>
-<div id="orderInfo"></div>
-<div id="selectedProductsContainer" style="display: none;">
-    <h2>My Orders</h2>
-    <ul id="orderList"></ul>
-    <button id="placeOrderButton">Place your order</button>
-</div>
-<button id="myOrdersButton">My Orders</button>
+<!--        <button type="submit">Submit form</button>-->
+<!--    </form>-->
+<!--</div>-->
+<!--<div id="orderInfo"></div>-->
+<!--<div id="selectedProductsContainer" style="display: none;">-->
+<!--    <h2>My Orders</h2>-->
+<!--    <ul id="orderList"></ul>-->
+<!--    <button id="placeOrderButton">Place your order</button>-->
+<!--</div>-->
+<!--<button id="myOrdersButton">My Orders</button>-->
 
 
 
@@ -138,6 +138,19 @@
 <!--<div id="tableContainer"></div>-->
 
 
+<h3>Search post by ID</h3>
+<input type="number" id="postIdInput" placeholder="Enter post ID (1-100)">
+<button id="searchButton">Search</button>
+<div id="postContainer" style="display: none;">
+    <p>Post:</p>
+    <div id="postContent"></div><br>
+    <button id="commentsButton">Get comments</button>
+    <div id="commentsContainer" style="display: none;">
+        <p>Comments:</p>
+        <ul id="commentsList"></ul>
+    </div>
+</div>
+
 
 
 
@@ -183,6 +196,7 @@
 <script src="DZ_30.js"></script>
 <script src="DZ_31.js"></script>
 <script src="DZ_32.js"></script>
+<script src="DZ_33.js"></script>
 
 
 

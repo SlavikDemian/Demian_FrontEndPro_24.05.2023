@@ -1,4 +1,4 @@
-
+/*
 
 let selectedProducts = [];
 
@@ -292,7 +292,7 @@ if (storedSelectedProducts) {
 
 
 
-
+*/
 
 
 
